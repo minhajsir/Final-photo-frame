@@ -1,0 +1,19 @@
+:root{--bg:#f7f7f9;--card:#fff;--muted:#666;--accent:#0b76ef}
+body{font-family:Inter,system-ui,Arial;margin:0;background:var(--bg);color:#111}
+.container{max-width:920px;margin:18px auto;padding:18px}
+h1{font-size:20px;margin:0 0 12px}
+.card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(20,20,40,0.04);margin-bottom:12px}
+.full{width:100%;padding:8px;margin-top:6px}
+.btn{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:8px;cursor:pointer;margin-top:8px}
+.btn.alt{background:#666;margin-left:8px}
+.videoWrap{max-width:420px;position:relative}
+.video{width:100%;height:auto;background:#000;border-radius:8px}
+.controls{margin-top:8px}
+.preview{max-width:220px;margin-top:10px}
+.final{max-width:720px;width:100%}
+.error{background:#c33;color:#fff;padding:8px;border-radius:8px;margin-top:10px}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+.range-wrap{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.range-wrap label{font-size:13px;color:var(--muted);margin-right:8px}
+input[type='number']{width:90px}
